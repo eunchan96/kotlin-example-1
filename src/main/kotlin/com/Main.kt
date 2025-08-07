@@ -1,7 +1,10 @@
 package com
 
 fun main() {
-    for (i in 0 until 10) {
-        println("Count: $i")
-    }
+    val result = add(5, 3)
+    println("result: $result")
+}
+
+fun add(a: Int, b: Int): Int {
+    return a + b
 }

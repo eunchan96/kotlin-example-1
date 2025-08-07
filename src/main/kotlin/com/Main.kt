@@ -4,6 +4,6 @@ fun main() {
     val number = 10
     val name = "Paul"
 
-    println(number)
-    println(name)
+    println("Number: $number")
+    println("Name: $name")
 }

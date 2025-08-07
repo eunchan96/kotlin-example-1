@@ -1,7 +1,11 @@
 package com
 
-fun main() {
-    val names = listOf("Alice", "Bob", "Charlie")
+data class Person(val name: String, val age: Int)
 
-    names.forEach { println("Hello, $it") }
+fun main() {
+    val person1 = Person("Alice", 30)
+    println(person1) // 자동 생성된 toString() 사용
+
+    val person2 = Person("Alice", 30)
+    println(person1 == person2) // 자동 생성된 equals() 사용
 }

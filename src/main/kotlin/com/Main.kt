@@ -1,9 +1,8 @@
 package com
 
 fun main() {
-    val number = 10
-    val name = "Paul"
+    val number = 15
+    val result = if (number % 2 == 0) "even" else "odd"
 
-    println("Number: $number")
-    println("Name: $name")
+    println(result)
 }
